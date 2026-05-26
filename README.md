@@ -2,10 +2,11 @@
 
 A compact 6-key macropad powered by the RP2040, with two rotary encoders for scroll, zoom, or whatever feels useful that week. Fully custom PCB, hand-routed, with MX-compatible switch footprints at 19.05mm spacing.
 This was the project that started everything — a Hack Club Hackpad build that turned into a crash course in KiCad, footprint libraries, PCB layout, and knowing when to scale back (and when not to). It taught the fundamentals that every later project relied on.
-###Schematic Preview
+
+### Schematic Preview
 <img width="1167" height="808" alt="image" src="https://github.com/user-attachments/assets/9a45358f-c970-4eb1-bbe9-ad0814f4368f" />
 
-###PCB Preview
+### PCB Preview
 <img width="1277" height="656" alt="image" src="https://github.com/user-attachments/assets/6a04a904-dea7-45f5-9aa2-10bd841a1d6c" />
 
 
