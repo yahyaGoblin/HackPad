@@ -7,11 +7,11 @@ This was the project that started everything — a Hack Club Hackpad build that 
 <img width="1167" height="808" alt="image" src="https://github.com/user-attachments/assets/9a45358f-c970-4eb1-bbe9-ad0814f4368f" />
 
 ### PCB Preview
-<img width="1277" height="656" alt="image" src="https://github.com/user-attachments/assets/6a04a904-dea7-45f5-9aa2-10bd841a1d6c" />
-
+<img width="1567" height="806" alt="image" src="https://github.com/user-attachments/assets/0a233ac1-70fb-42b2-82cc-4c5fcee31d25" />
 
 ### 3D Model
 
+<img width="1288" height="750" alt="image" src="https://github.com/user-attachments/assets/1de19c34-0ec5-4d2d-b432-ead9bb40e240" />
 
 ## Features
 
