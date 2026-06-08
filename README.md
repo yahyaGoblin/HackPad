@@ -15,6 +15,7 @@ This was the project that started everything — a Hack Club Hackpad build that 
 - 1 rotary encoder (clicky, EC11)
 - Seeed XIAO MCU (small footprint, USB-C)
 - Compact single PCB design
+- 
 ### Bill of Materials
 
 | Component | Part | Quantity | Notes |
@@ -29,9 +30,14 @@ This was the project that started everything — a Hack Club Hackpad build that 
 
 ---
 <img width="609" height="735" alt="image" src="https://github.com/user-attachments/assets/103a84cd-9188-44d5-8f01-c776632f08d6" />
+
 ## Fabrication
+
 Gerber files are in the `/gerbers` folder, ready to send to JLCPCB, PCBWay, or your preferred fab.
+
 ## Firmware
+
 Designed for use with [KMK](https://github.com/KMKfw/kmk_firmware). See `code.py` for the full config — 4 keys mapped to media controls, encoder for volume with mute on press.
+
 ## License
 Open source hardware — feel free to modify and build your own.
