@@ -5,304 +5,6 @@
 	(uuid "42d2743e-960e-4149-848b-9ef0de804efd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:RotaryEncoder"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder"
-				(at 0 -6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -2.794)
-					(mid -3.0988 -0.0635)
-					(end -0.381 2.667)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -1298,155 +1000,44 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 80.01 95.25)
+		(at 100.33 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21c6c5e7-b3aa-4caa-ad3d-7668770f471a")
 	)
 	(junction
-		(at 80.01 102.87)
+		(at 100.33 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "484dde11-6731-4368-b39d-a2c14547e78c")
 	)
 	(junction
-		(at 80.01 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b49a342d-9a77-466b-ac18-1f9f49bb1248")
-	)
-	(junction
-		(at 80.01 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7c1900c-c565-4ec6-9c2f-b19715f4b16c")
-	)
-	(junction
-		(at 80.01 87.63)
+		(at 100.33 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e060407c-8752-4c3a-8bee-8d52c892a0a2")
 	)
 	(no_connect
+		(at 187.96 93.98)
+		(uuid "026d72a6-9b21-4100-9685-ac0060298afe")
+	)
+	(no_connect
+		(at 187.96 96.52)
+		(uuid "15a55b12-cdd2-4f9e-a569-79f303b8eefa")
+	)
+	(no_connect
 		(at 187.96 81.28)
 		(uuid "443a739b-3506-4c99-9b95-1a17839ebcfb")
+	)
+	(no_connect
+		(at 187.96 91.44)
+		(uuid "76b185cf-7c11-4d28-8690-14d8de6749d7")
+	)
+	(no_connect
+		(at 187.96 88.9)
+		(uuid "f3a5c6c9-c6cf-4f05-b485-9e2169db12d5")
 	)
 	(wire
 		(pts
@@ -1460,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 102.87) (xy 80.01 110.49)
+			(xy 100.33 102.87) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 53.34) (xy 67.31 95.25)
+			(xy 87.63 53.34) (xy 87.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 68.58 87.63)
+			(xy 88.9 52.07) (xy 88.9 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1520,16 +1111,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 137.16) (xy 69.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1e8e62-384f-4757-b6a5-850a3a399cd8")
-	)
-	(wire
-		(pts
 			(xy 147.32 91.44) (xy 123.19 91.44)
 		)
 		(stroke
@@ -1537,36 +1118,6 @@
 			(type default)
 		)
 		(uuid "44c308fa-be11-4388-b726-4a9bbf43be19")
-	)
-	(wire
-		(pts
-			(xy 148.59 127) (xy 148.59 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7d5c2f-2fdb-461e-8107-c45297c3e44a")
-	)
-	(wire
-		(pts
-			(xy 187.96 96.52) (xy 187.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc9956b-d047-4856-8a16-9e32cdfbfa4f")
-	)
-	(wire
-		(pts
-			(xy 187.96 91.44) (xy 190.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d62a397-268d-4e66-acf9-61703d8b8ce3")
 	)
 	(wire
 		(pts
@@ -1580,16 +1131,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 138.43) (xy 68.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ffdc96-8335-456d-805d-87daaf64e3e3")
-	)
-	(wire
-		(pts
 			(xy 147.32 81.28) (xy 147.32 50.8)
 		)
 		(stroke
@@ -1600,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 54.61) (xy 66.04 54.61)
+			(xy 143.51 54.61) (xy 86.36 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 52.07) (xy 68.58 52.07)
+			(xy 146.05 52.07) (xy 88.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1620,17 +1161,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 138.43) (xy 68.58 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e715a0e-50a4-4e64-bb19-ef1d6b010fac")
-	)
-	(wire
-		(pts
-			(xy 68.58 87.63) (xy 69.85 87.63)
+			(xy 88.9 87.63) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 54.61) (xy 66.04 102.87)
+			(xy 86.36 54.61) (xy 86.36 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 69.85 50.8)
+			(xy 147.32 50.8) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1660,23 +1191,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 80.01 87.63)
+			(xy 100.33 80.01) (xy 100.33 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81b859f9-e096-429c-9d86-4463895f299a")
-	)
-	(wire
-		(pts
-			(xy 194.31 140.97) (xy 148.59 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89de2583-2cfc-469d-a8ad-7fa56dd84c72")
 	)
 	(wire
 		(pts
@@ -1690,27 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 121.92) (xy 148.59 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e63d525-3745-42b8-af83-316259bc8296")
-	)
-	(wire
-		(pts
-			(xy 189.23 93.98) (xy 189.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed6375e-c00b-4e84-b27b-97c731175c2a")
-	)
-	(wire
-		(pts
-			(xy 80.01 95.25) (xy 80.01 102.87)
+			(xy 100.33 95.25) (xy 100.33 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1730,16 +1231,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 121.92) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9659c30f-d5b9-4386-bd97-4be2ee25b25f")
-	)
-	(wire
-		(pts
 			(xy 144.78 86.36) (xy 144.78 53.34)
 		)
 		(stroke
@@ -1750,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 95.25) (xy 69.85 95.25)
+			(xy 87.63 95.25) (xy 90.17 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 69.85 80.01)
+			(xy 90.17 50.8) (xy 90.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1770,73 +1261,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 69.85 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67974e7-1261-409f-890a-3d08795bbf89")
-	)
-	(wire
-		(pts
-			(xy 190.5 139.7) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79ad7f7-150b-4ed9-b3a4-7406ed7307b2")
-	)
-	(wire
-		(pts
-			(xy 80.01 87.63) (xy 80.01 95.25)
+			(xy 100.33 87.63) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7f202ba-3d71-4cce-9c69-3753ae3f9932")
-	)
-	(wire
-		(pts
-			(xy 187.96 88.9) (xy 194.31 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff4e7cb-e648-4eef-8e9c-7c30d83019ad")
-	)
-	(wire
-		(pts
-			(xy 68.58 110.49) (xy 69.85 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c59373-cf0f-457c-9cd9-3365da5f7725")
-	)
-	(wire
-		(pts
-			(xy 187.96 93.98) (xy 189.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b687da76-959a-49c2-8bc1-b1d226956794")
-	)
-	(wire
-		(pts
-			(xy 80.01 110.49) (xy 80.01 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7bb7cab-5228-4751-9e8b-08eeea0518e0")
 	)
 	(wire
 		(pts
@@ -1890,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 102.87) (xy 69.85 102.87)
+			(xy 86.36 102.87) (xy 90.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1900,33 +1331,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 91.44) (xy 190.5 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eedb22c6-32a4-4008-b652-ef1cfb2c3dda")
-	)
-	(wire
-		(pts
-			(xy 144.78 53.34) (xy 67.31 53.34)
+			(xy 144.78 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "efd26682-461b-474b-aa83-be75c2eeff43")
-	)
-	(wire
-		(pts
-			(xy 194.31 88.9) (xy 194.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46e0368-ddf3-43de-85d1-48a0faa0fd40")
 	)
 	(wire
 		(pts
@@ -1979,14 +1390,14 @@
 		(uuid "b14ae144-5b47-49ce-a298-eef4ff55ec6d")
 	)
 	(label "GND"
-		(at 148.59 124.46 180)
+		(at 100.33 110.49 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e6511e30-6e09-4e5b-879f-b31283084cb2")
+		(uuid "bd72de6d-1170-4db7-b768-85058a9c8f7a")
 	)
 	(label "PWR"
 		(at 193.04 86.36 0)
@@ -2075,85 +1486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1df7b227-f186-4d32-aff1-f28044f70ed9")
-		(property "Reference" "SW6"
-			(at 74.93 112.522 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 74.93 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 74.93 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5786c96-5c33-469d-a1b9-49dc1e6a9095")
-		)
-		(pin "2"
-			(uuid "739903bc-4f9b-4032-a995-e0883588b81c")
-		)
-		(instances
-			(project "HackPad"
-				(path "/42d2743e-960e-4149-848b-9ef0de804efd"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 15.24 20.32 0)
 		(unit 1)
@@ -2224,84 +1556,6 @@
 			(project "HackPad"
 				(path "/42d2743e-960e-4149-848b-9ef0de804efd"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d01484b-c88c-4eff-bb28-8057400a6481")
-		(property "Reference" "#PWR01"
-			(at 80.01 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb818396-baba-4801-8dd8-db3416695844")
-		)
-		(instances
-			(project "HackPad"
-				(path "/42d2743e-960e-4149-848b-9ef0de804efd"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2473,7 +1727,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 74.93 102.87 0)
+		(at 95.25 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2483,7 +1737,7 @@
 		(dnp no)
 		(uuid "61f40ac1-a5ed-4753-8682-790e7a7484f4")
 		(property "Reference" "SW4"
-			(at 74.93 97.282 0)
+			(at 95.25 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2493,7 +1747,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 74.93 98.806 0)
+			(at 95.25 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2503,7 +1757,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 74.93 97.79 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2514,7 +1768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 97.79 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,7 +1779,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 102.87 0)
+			(at 95.25 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +1806,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 74.93 80.01 0)
+		(at 95.25 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2562,7 +1816,7 @@
 		(dnp no)
 		(uuid "76174206-1c9b-44e8-b1cb-19489ae560e1")
 		(property "Reference" "SW1"
-			(at 74.93 74.422 0)
+			(at 95.25 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2572,7 +1826,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 74.93 75.946 0)
+			(at 95.25 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2582,7 +1836,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 74.93 74.93 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,7 +1847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 74.93 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +1858,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 80.01 0)
+			(at 95.25 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +2001,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 74.93 95.25 0)
+		(at 95.25 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2757,7 +2011,7 @@
 		(dnp no)
 		(uuid "8046ee20-a48c-4b98-b3f7-0c662cdc7993")
 		(property "Reference" "SW3"
-			(at 74.93 89.662 0)
+			(at 95.25 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2767,7 +2021,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 74.93 91.186 0)
+			(at 95.25 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,7 +2031,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 74.93 90.17 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2788,7 +2042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 90.17 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +2053,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 95.25 0)
+			(at 95.25 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,86 +2080,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 74.93 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "859b5b04-b370-4911-95d1-f9ea77a8793c")
-		(property "Reference" "SW5"
-			(at 74.93 104.902 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 74.93 106.426 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 74.93 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e05486f-689e-438c-804e-ea1648818a46")
-		)
-		(pin "2"
-			(uuid "2617fe28-5464-4fea-8a9f-cdb1c0059b3e")
-		)
-		(instances
-			(project "HackPad"
-				(path "/42d2743e-960e-4149-848b-9ef0de804efd"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 87.63 0)
+		(at 95.25 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2915,7 +2090,7 @@
 		(dnp no)
 		(uuid "91b78763-dc40-42dc-90a7-03efe7042d56")
 		(property "Reference" "SW2"
-			(at 74.93 82.042 0)
+			(at 95.25 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2925,7 +2100,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 74.93 83.566 0)
+			(at 95.25 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2935,7 +2110,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 74.93 82.55 0)
+			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 82.55 0)
+			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +2132,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 87.63 0)
+			(at 95.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3053,91 +2228,6 @@
 			(project "HackPad"
 				(path "/42d2743e-960e-4149-848b-9ef0de804efd"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder")
-		(at 156.21 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e37bab22-ee2a-4947-905a-4ab622ff973a")
-		(property "Reference" "SW8"
-			(at 162.56 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RotaryEncoder"
-			(at 162.56 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 152.4 120.396 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 117.856 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 156.21 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "4ecc6c24-5f56-4665-879e-3e783999e288")
-		)
-		(pin "B"
-			(uuid "838da1f7-a48f-4dd6-8dc9-89e1163b48bb")
-		)
-		(pin "A"
-			(uuid "0958ae65-456c-40cd-a815-69f11edd39fa")
-		)
-		(instances
-			(project "HackPad"
-				(path "/42d2743e-960e-4149-848b-9ef0de804efd"
-					(reference "SW8")
 					(unit 1)
 				)
 			)
