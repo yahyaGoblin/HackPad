@@ -41,7 +41,7 @@ Gerber files are in the `/gerbers` folder, ready to send to JLCPCB, PCBWay, or y
 
 ## Firmware
 
-Designed for use with [KMK](https://github.com/KMKfw/kmk_firmware) or [QMK](https://qmk.fm/) depending on the XIAO variant used.
+Designed for use with [KMK](https://github.com/KMKfw/kmk_firmware).
 
 ## License
 
