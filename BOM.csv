@@ -1,0 +1,7 @@
+Name,Purpose,QTY,Total (USD),Link,Distributor
+Baseplate,Holding the PCB,1,$3.00,-,local
+PCB,PCB,1,$5.00,-,PCBWay
+Encoder Knob,Knob for rotary encoder,1,$2.51,https://keebd.com/products/3d-printed-encoder-knob?variant=40383061917848,KEEBD
+Seeed XIAO RP2040,Main microcontroller,1,$9.70,https://keebd.com/products/xiao-rp2040-controller?_pos=1&_psq=xiao&_ss=e&_v=1.0,KEEBD
+EC11 Rotary Encoder (clicky),Rotary input with push button — SW7,1,$3.23,https://keebd.com/products/ec11-encoder-with-switch?_pos=1&_psq=enco&_ss=e&_v=1.0,KEEBD
+Cherry MX Compatible Switches (Gateron Blue),Key input,1,$3.23,https://keebd.com/products/gateron-blue,KEEBD
